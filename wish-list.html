@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wish List - Takealot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/ecb918b976.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: "#f4f4f4",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-background text-gray-800"
+  >
+    <!--HEADER ------------------------------------------------------------------------------------------------------------------------------------>
+    <div class="container mx-auto py-4">
+      <div class="space-x-2 text-sm text-sky-700">
+        <a href="">My Account</a>
+        <span>/</span>
+        <a href="">My Lists</a> 
+        <span>/</span>
+        <a class="text-gray-700">Wish List</a>
+      </div>
+      <div class="flex">
+        <div
+          class="bg-white h-[150px] w-[360px] text-gray-700 mb-10 mt-4 rounded-md"
+        >
+          <h1 class="p-2 text-lg font-bold">My Lists</h1>
+          <hr />
+          <div
+            class="text-sm bg-sky-50 py-1 border-l-4 border-sky-800 w-[330px] cursor-pointer mt-4 rounded-r-full"
+          >
+            <a class="pl-4" href="">Wish List</a>
+          </div>
+          <div
+            class="text-sm hover:bg-gray-100 py-1 w-[330px] cursor-pointer rounded-r-full my-1 text-sky-700"
+          >
+            <a href="">+ Create a List</a>
+          </div>
+        </div>
+        <div class="p-4 pt-8 flex-1">
+          <div class="flex items-center">
+            <div class="text-xl font-bold">Wish List</div>
+            <p
+              class="text-[10px] font-extrabold mx-4 py-[4px] bg-gray-300 rounded-full px-4"
+            >
+              DEFAULT
+            </p>
+          </div>
+          <div class="flex h-[61px] bg-yellow-100 items-center mt-4 shadow-md">
+            <div
+              class="flex items-center bg-yellow-400 w-14 rounded-r-full mr-2 h-full"
+            >
+              <i class="fa-solid items-center fa-lock text-2xl mx-auto"></i>
+            </div>
+            <p class="text-sm">
+              You are viewing your guest list. Log in for full access to your
+              lists.
+              <span class="text-sky-700 cursor-pointer hover:underline"
+                >Login</span
+              >
+            </p>
+          </div>
+          <div
+            class="bg-white flex flex-col pb-4 justify-center items-center mt-4 shadow-md"
+          >
+            <div class="py-4 rounded-full">
+              <img
+                class="rounded-full border-8 border-white shadow-md"
+                src="https://shopfront.takealot.com/13eff8fb49302e59b7e8b9c7a03563835e301383/static/media/src/images/wishlist/wishlist-empty.svg-38f93f7194b84a6a1f59.svg"
+                alt=""
+              />
+            </div>
+            <div class="text-center flex flex-col space-y-4">
+              <h2 class="font-bold text-[18px]">This list is empty!</h2>
+              <p class="my-4">Go on, start planning what gifts you'd like!</p>
+              
+            </div>
+            <a
+                class="bg-sky-700 text-white px-8 py-3 mt-4 text-sm"
+                href="#"
+                >Continue Shopping</a
+              >
+          </div>
+          <div class="my-5 w-full">
+            <img class="bg-cover" src="https://tpc.googlesyndication.com/simgad/9334445511005059859?">  
+          </div>
+
+          <div>
+            <h2 class="font-bold">Trending Now</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
